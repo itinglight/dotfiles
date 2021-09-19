@@ -1,2 +1,2 @@
-ln ./.vimrc ~/.vimrc
-# ln ./.zshrc ~/.zshrc
+ln ./vimrc ~/.vimrc
+# ln ./zshrc ~/.zshrc
