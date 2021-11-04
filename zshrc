@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 alias ybb="youtube-dl -f bestvideo+bestaudio"
+alias ybt="youtube-dl -f http-1280"
 alias power="sudo powermetrics"
 
 # Set name of the theme to load --- if set to "random", it will
