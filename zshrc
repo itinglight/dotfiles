@@ -124,3 +124,4 @@ export PATH="/usr/local/opt/maven@3.3/bin:$PATH"
 export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
 # 设置代理
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"
