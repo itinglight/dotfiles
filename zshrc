@@ -6,6 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 alias ybb="youtube-dl -f bestvideo+bestaudio"
 alias ybt="youtube-dl -f http-1280"
 alias power="sudo powermetrics"
+alias ys="source ~/.zshrc"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
