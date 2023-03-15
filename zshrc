@@ -4,6 +4,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 alias ybb="youtube-dl -f bestvideo+bestaudio"
+alias ybs="yt-dlp -f bestvideo+bestaudio"
 alias ybt="youtube-dl -f http-1280"
 alias power="sudo powermetrics"
 alias ys="source ~/.zshrc"
@@ -127,3 +128,15 @@ export PATH="/usr/local/opt/tomcat@7/bin:$PATH"
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 export PATH="/opt/homebrew/opt/mysql@5.7/bin:$PATH"
 export PATH="/opt/homebrew/opt/node@14/bin:$PATH"
+
+
+
+
+git config --global --add safe.directory  /opt/homebrew/Library/Taps/homebrew/homebrew-cask
+git config --global --add safe.directory   /opt/homebrew/Library/Taps/homebrew/homebrew-services
+git config --global --add safe.directory    /opt/homebrew/Library/Taps/homebrew/homebrew-core 
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+___MY_VMOPTIONS_SHELL_FILE="${HOME}/.jetbrains.vmoptions.sh"; if [ -f "${___MY_VMOPTIONS_SHELL_FILE}" ]; then . "${___MY_VMOPTIONS_SHELL_FILE}"; fi
+# m1 mac import python2 version
+# export PATH="$(pyenv root)/shims:${PATH}"
