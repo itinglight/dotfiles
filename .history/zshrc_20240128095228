@@ -151,5 +151,3 @@ export PNPM_HOME="/Users/itinglight/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 alias lg='lazygit'
-
-alias pexec="bash ~/dotfiles/pexec.sh"
