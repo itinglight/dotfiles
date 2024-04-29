@@ -3,7 +3,8 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-alias ybb="youtube-dl -f bestvideo+bestaudio"
+#alias ybb="youtube-dl -f bestvideo+bestaudio"
+alias ybb="pexec youtube-dl -f bestvideo+bestaudio"
 alias ybs="yt-dlp -f bestvideo+bestaudio"
 alias ybt="youtube-dl -f http-1280"
 alias power="sudo powermetrics"
